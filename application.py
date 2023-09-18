@@ -19,4 +19,4 @@ def quote():
 
 #this part is executed when the module is called directly - "pipenv run python app.py"
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
